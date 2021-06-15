@@ -4,4 +4,4 @@ void main() {
 }
 
 
-calculateSum(N, M) => N+M;
+calculateSum(first, second) => first + second;

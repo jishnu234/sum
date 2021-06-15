@@ -4,10 +4,4 @@ void main() {
   print(sumList);
 }
 
-int calculateSum(List<int> noList) {
-  var s = 0;
-  for(var no in noList) {
-    s += no;
-  }
-return s;
-}
+int calculateSum(List<int> noList) => noList.reduce((first, second) => first + second);
